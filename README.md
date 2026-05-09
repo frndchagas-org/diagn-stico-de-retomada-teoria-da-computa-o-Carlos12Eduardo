@@ -62,6 +62,11 @@ L1 = automato finito
 L2 = livre de contexto
 L3 = maquina de turing
 
+Resposta da questão 3.4:
+L1 = reconhece cadeia que terminam em 01
+L2 = reconhece palavras que tenham ab com mesma quantidade de a e b
+L3 = reconhece cadeias que tenham abc com mesma quantidade de a e b e c
+
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
 
 ## 4. Autômato finito
