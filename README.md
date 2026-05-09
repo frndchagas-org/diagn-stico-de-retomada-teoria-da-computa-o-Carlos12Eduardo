@@ -43,9 +43,24 @@ L3 = { a^n b^n c^n | n >= 0 }
 Para cada linguagem:
 
 1. escreva três palavras que pertencem à linguagem;
-2. escreva duas palavras que não pertencem;
-3. diga, se souber, em qual classe ela provavelmente se encaixa;
-4. explique o motivo em linguagem simples.
+3. escreva duas palavras que não pertencem;
+4. diga, se souber, em qual classe ela provavelmente se encaixa;
+5. explique o motivo em linguagem simples.
+
+Resposta da questão 3.1:
+L1 = {001,101,0001}
+L2 = {vazio, ab, aabb}
+L3 = {vazio, abc, aabbcc}
+
+Resposta da questão 3.2:
+L1 = {000,110,0011}
+L2 = {a, aab, aabbbb}
+L3 = {abcc, aabc, aabbbbcc}
+
+Resposta da questão 3.3:
+L1 = automato finito
+L2 = livre de contexto
+L3 = maquina de turing
 
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
 
