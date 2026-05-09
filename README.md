@@ -126,6 +126,20 @@ Responda:
 2. Descreva a linguagem em palavras.
 3. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
 
+Resposta da questão 5.1:
+```text
+{ab,aab,aaab,aaaab,aaaaab}
+```
+Resposta da questão 5.2:
+```text
+gera palavras que tem pelo menos 1 a e termina com b.
+```
+
+Resposta da questão 5.3:
+```text
+Pode ser reconhecida por um autômato finito, desse modo, não há necessidade de memória. Portanto é uma linguagem regular.
+```
+
 ## 6. Ponto de dificuldade
 
 Escolha um tópico da lista inicial e escreva:
