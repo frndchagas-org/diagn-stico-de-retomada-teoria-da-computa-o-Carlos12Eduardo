@@ -168,11 +168,13 @@ desenho mostrando a transição do que a linguagem reconhece usando exemplos.
 Se você usou IA depois da primeira tentativa, registre:
 
 ```text
-Pergunta feita:
-Resumo da resposta:
-Como eu verifiquei:
-O que eu alterei na minha resposta:
-O que ainda não entendi:
+Pergunta feita: "qual a diferença entre linguagem e gramática na teoria da computação?"
+Resumo da resposta: 
+"A linguagem é o “resultado final”.
+A gramática é o “mecanismo de construção”."
+Como eu verifiquei: não entendi essa pergunta
+O que eu alterei na minha resposta: para mim era a mesma coisa
+O que ainda não entendi: não tenho dúvidas
 ```
 
 ## Submissão no Moodle
