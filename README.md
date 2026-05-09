@@ -25,10 +25,10 @@ Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi
 
 Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma = {a, b}`.
 
-1. O que é um alfabeto?
-2. O que é uma cadeia?
-3. O que é uma linguagem?
-4. O que é uma gramática?
+1. O que é um alfabeto? um alfabeto e a definição dos caracteres que serão utilizados para formar as cadeias.
+2. O que é uma cadeia? cadeia é um conjunto formado pelo concatenção de elementos do alfabeto.
+3. O que é uma linguagem? linguagem é o conjunto formado pelas cadeias. Ela serve para definir se determinada cadeia faz parta da linguagem ou não.
+4. O que é uma gramática? é o conjunto que gera as cadeias. Tem uma definição próxima de linguagem. Enquanto a linguagem trabalha como reconhecedor de cadeias, a gramática trabalha como  gerador de cadeias.
 
 ## 3. Linguagens
 
