@@ -89,14 +89,27 @@ q2 --1--> q0
 
 Responda:
 
-1. Qual linguagem esse autômato parece reconhecer?
-2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
-   - `01`
-   - `101`
-   - `100`
-   - `1101`
-   - `111`
+1. Qual linguagem esse autômato parece reconhecer? Resposta: Esse autômato reconhece palavras que terminam com 01.
+2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita: 
+   - `01` | resposta: aceita
+   - `101`  | resposta: aceita
+   - `100`  | resposta: rejeita
+   - `1101` | resposta: aceita
+   - `111` | resposta: rejeita
 3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
+Resposta:
+analisando a cadeia 01:
+```text
+(q0,0) ---> q1
+(q1,1) ---> q2
+```
+
+analisando a cadeia 111:
+```text
+(q0,1) ---> q0
+(q0,1) ---> q0
+(q0,1) ---> q0
+```
 
 ## 5. Gramática
 
