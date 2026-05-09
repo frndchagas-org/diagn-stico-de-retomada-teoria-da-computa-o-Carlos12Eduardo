@@ -43,29 +43,29 @@ L3 = { a^n b^n c^n | n >= 0 }
 Para cada linguagem:
 
 1. escreva três palavras que pertencem à linguagem;
-3. escreva duas palavras que não pertencem;
-4. diga, se souber, em qual classe ela provavelmente se encaixa;
-5. explique o motivo em linguagem simples.
+2. escreva duas palavras que não pertencem;
+3. diga, se souber, em qual classe ela provavelmente se encaixa;
+4. explique o motivo em linguagem simples.
 
-Resposta da questão 3.1:
-L1 = {001,101,0001}
-L2 = {vazio, ab, aabb}
-L3 = {vazio, abc, aabbcc}
+#### Resposta da questão 3.1:  
+L1 = {001,101,0001}  
+L2 = {vazio, ab, aabb}  
+L3 = {vazio, abc, aabbcc}  
 
-Resposta da questão 3.2:
-L1 = {000,110,0011}
-L2 = {a, aab, aabbbb}
-L3 = {abcc, aabc, aabbbbcc}
+#### Resposta da questão 3.2:  
+L1 = {000,110,0011}  
+L2 = {a, aab, aabbbb}  
+L3 = {abcc, aabc, aabbbbcc}  
 
-Resposta da questão 3.3:
-L1 = automato finito
-L2 = livre de contexto
-L3 = maquina de turing
+#### Resposta da questão 3.3:  
+L1 = automato finito  
+L2 = livre de contexto  
+L3 = maquina de turing  
 
-Resposta da questão 3.4:
-L1 = reconhece cadeia que terminam em 01
-L2 = reconhece palavras que tenham ab com mesma quantidade de a e b
-L3 = reconhece cadeias que tenham abc com mesma quantidade de a e b e c
+#### Resposta da questão 3.4:
+L1 = reconhece cadeia que terminam em 01  
+L2 = reconhece palavras que tenham ab com mesma quantidade de a e b  
+L3 = reconhece cadeias que tenham abc com mesma quantidade de a e b e c  
 
 Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
 
@@ -89,7 +89,7 @@ q2 --1--> q0
 
 Responda:
 
-1. Qual linguagem esse autômato parece reconhecer? Resposta: Esse autômato reconhece palavras que terminam com 01.
+1. Qual linguagem esse autômato parece reconhecer?  Resposta: Esse autômato reconhece palavras que terminam com 01.
 2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita: 
    - `01` | resposta: aceita
    - `101`  | resposta: aceita
@@ -98,13 +98,13 @@ Responda:
    - `111` | resposta: rejeita
 3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
 Resposta:
-analisando a cadeia 01:
+#### analisando a cadeia 01:  
 ```text
 (q0,0) ---> q1
 (q1,1) ---> q2
 ```
 
-analisando a cadeia 111:
+#### analisando a cadeia 111:  
 ```text
 (q0,1) ---> q0
 (q0,1) ---> q0
@@ -126,16 +126,16 @@ Responda:
 2. Descreva a linguagem em palavras.
 3. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
 
-Resposta da questão 5.1:
+#### Resposta da questão 5.1:
 ```text
 {ab,aab,aaab,aaaab,aaaaab}
 ```
-Resposta da questão 5.2:
+#### Resposta da questão 5.2:
 ```text
 gera palavras que tem pelo menos 1 a e termina com b.
 ```
 
-Resposta da questão 5.3:
+#### Resposta da questão 5.3:
 ```text
 Pode ser reconhecida por um autômato finito, desse modo, não há necessidade de memória. Portanto é uma linguagem regular.
 ```
@@ -148,17 +148,19 @@ Escolha um tópico da lista inicial e escreva:
 2. onde você se confunde;
 3. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
 
-Resposta da questão 6.1: 
+#### Resposta da questão 6.1: 
 ```text
 Hierarquia de Chomsky
 ```
 
-Resposta da questão 6.2: 
+#### Resposta da questão 6.2: 
 ```text
-Tenho dificuldade em lembra os tipos de linguagem. As vezes confundo a limitação de cada uma. Sobre linguagem regular e Máquina de turing eu não esqueço.
+Tenho dificuldade em lembra os tipos de linguagem.
+As vezes confundo a limitação de cada uma.
+Sobre linguagem regular e Máquina de turing eu não esqueço.
 ```
 
-Resposta da questão 6.3: 
+#### Resposta da questão 6.3: 
 ```text
 desenho mostrando a transição do que a linguagem reconhece usando exemplos.
 ```
@@ -169,12 +171,16 @@ Se você usou IA depois da primeira tentativa, registre:
 
 ```text
 Pergunta feita: "qual a diferença entre linguagem e gramática na teoria da computação?"
+
 Resumo da resposta: 
 "A linguagem é o “resultado final”.
 A gramática é o “mecanismo de construção”."
-Como eu verifiquei: não entendi essa pergunta
+
+Como eu verifiquei: não entendi essa pergunta.
+
 O que eu alterei na minha resposta: para mim era a mesma coisa
-O que ainda não entendi: não tenho dúvidas
+
+O que ainda não entendi: não tenho dúvidas.
 ```
 
 ## Submissão no Moodle
