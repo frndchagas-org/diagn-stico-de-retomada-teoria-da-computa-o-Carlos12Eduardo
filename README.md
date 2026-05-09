@@ -148,6 +148,21 @@ Escolha um tópico da lista inicial e escreva:
 2. onde você se confunde;
 3. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
 
+Resposta da questão 6.1: 
+```text
+Hierarquia de Chomsky
+```
+
+Resposta da questão 6.2: 
+```text
+Tenho dificuldade em lembra os tipos de linguagem. As vezes confundo a limitação de cada uma. Sobre linguagem regular e Máquina de turing eu não esqueço.
+```
+
+Resposta da questão 6.3: 
+```text
+desenho mostrando a transição do que a linguagem reconhece usando exemplos.
+```
+
 ## 7. Uso de IA, se houver
 
 Se você usou IA depois da primeira tentativa, registre:
